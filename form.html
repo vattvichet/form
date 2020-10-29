@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+
+<body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
@@ -39,10 +41,42 @@
         <button>search Youtube</button>
     </form>
 
-</head>
+    <h2>More Inputs</h2>
+    <form action="more">
+        <h3>Please choose one animal</h3>
+        <label for="dog">dog</label>
+        <input type="checkbox" name="animal" id="dog" value="dog">
+        <label for="cat">cat</label>
+        <input type="checkbox" name="animal" id="cat" value="cat">
 
-<body>
+
+        <h3>please choose your Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="other">Others</label>
+        <input type="radio" name="Gender" id="other" value="other">
+
+
+        <h3>Choose an option</h3>
+        <select name="meal" id="meal">
+            <option value="steak">steak</option>
+            <option value="soup">soup</option>
+            <option value="cha kdav">cha kdav</option>
+        </select>
+
+
+        <br> <br>
+        <button>submit</button>
+
+    </form>
+
+
+
+
 
 </body>
+</head>
 
 </html>
